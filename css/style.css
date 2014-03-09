@@ -74,6 +74,17 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Android';
+    src: url('fonts/Android.eot');
+    src: url('fonts/Android.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Android.woff') format('woff'),
+         url('fonts/Android.ttf') format('truetype'),
+         url('fonts/Android.svg#Android') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 /* ===================================================
@@ -93,19 +104,19 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
     ALL: Orange Theme
    =================== */
 
-#header-container{ border-bottom: 13px solid #e44d26; }
-#footer-container{ border-top:    20px solid #e44d26; }
-#main aside      { border-top:    20px solid #e44d26; }
+#header-container{ border-bottom: 13px solid #003e7d; }
+#footer-container{ border-top:    20px solid #003e7d; }
+#main aside      { border-top:    20px solid #003e7d; }
 
 #header-container,
 #footer-container,
 #main aside{
-	background:#f16529;
+	background:#007eff;
 }
 
 #title{
 	color:white;
-	font-family:'ChunkFiveRegular';
+	font-family: 'PT Sans','DIN Pro','Trebuchet MS',Arial,Helvetica,sans-serif;
 	font-weight:normal;
 	font-size:2.0em;
 	margin-bottom:20px;
@@ -115,20 +126,21 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 #header-container h2{
 	color:white;
 	font-size:16px;
+	font-family: 'PT Sans','DIN Pro','Trebuchet MS',Arial,Helvetica,sans-serif;
 }
 
 #header-container header{
 	text-align:center;
 }
 
-::-moz-selection { background: #f16529; color: #fff; text-shadow: none; }
-::selection      { background: #f16529; color: #fff; text-shadow: none; }
+::-moz-selection { background: #8ece00; color: #fff; text-shadow: none; }
+::selection      { background: #8ece00; color: #fff; text-shadow: none; }
 
 
 
 /* WEBSITE */
 
-#html5-logo-container{
+#mobileappteamx-logo-container{
 	display:none;
 }
 
@@ -186,7 +198,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 	text-align:center;
 	font-weight:normal;
 	font-size:3em;
-	color:#F16529;
+	color:#003e7d;
 	margin:50px 0;
 }
 
@@ -214,36 +226,67 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 	margin:30px 0 20px;
 }
 
-.blank-background button,
+.blank-background button
+{
+    font-family: 'PT Sans','DIN Pro','Trebuchet MS',Arial,Helvetica,sans-serif;
+    background:#bbb;
+}
 .blank-background a{
 	background:#bbb;
+	
 }
 
 .blank-background button:hover,
 .blank-background a:hover{
 	background:#c4c4c4;
+	
 }
 
 .blank-background button:active{
 	background:#888;
+	
 }
 
 
 
-.initializr-background button,
-.initializr-background a,
-#download-section a{
-	background:#F16529;
+.initializr-background button{
+    font-family:Android;
+    background:#82bc00;
+}
+.initializr-background a
+{
+   
+    background:#82bc00;
 }
 
-.initializr-background button:hover,
-.initializr-background a:hover,
-#download-section a:hover{
-	background:#F67539;
+
+.initializr-background button:hover{
+    font-family:Android;
+    background:#91d100;
 }
+.initializr-background a:hover
+{
+   
+    background:#8cca00;
+}
+
 
 .initializr-background button:active{
-	background:#d14509;
+	background:#82bc00;
+	font-family:Android;
+	
+	
+	
+}
+#download-section a{
+	background:#82bc00;
+	font-family: 'PT Sans','DIN Pro','Trebuchet MS',Arial,Helvetica,sans-serif;
+	
+}
+#download-section a:hover{
+	background:#8cca00;
+	font-family: 'PT Sans','DIN Pro','Trebuchet MS',Arial,Helvetica,sans-serif;
+	
 }
 
 .bootstrap-background button,
@@ -279,7 +322,6 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 #download-section a
 {
 	font-weight:normal;
-	font-family:ChunkFiveRegular;
 	font-size:2em;
 	color:white;
 	margin:0;
@@ -316,6 +358,19 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 	padding:30px 0;
 }
 
+#ios
+{
+    display:none;
+    }
+    #android
+{
+    display:none;
+    }
+    #html5
+{
+    display:none;
+    }
+
 #customize-section label{
 	background:white;
 	-webkit-border-radius:4px;
@@ -340,7 +395,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 }
 
 .customize-section h3{
-	text-align:center;
+	text-align:left;
 	font-weight:normal;
 	font-family:LeagueGothicRegular;
 	font-size:2em;
@@ -367,7 +422,7 @@ textarea{
 }
 
 #download-section a{
-	background:#F16529;
+	background:#8ece00;
 	display:block;
 	text-decoration:none;
 	margin-bottom:20px;
@@ -473,7 +528,7 @@ textarea{
 		width:63%;
 	}
 	
-	#html5-logo-container{
+	#mobileappteamx-logo-container{
 		float:left;
 		width:0;
 	}
@@ -584,7 +639,7 @@ textarea{
 
 	#github-container{
 		margin:auto;
-		width:480px;
+		width:200px;
 	}
 
 	#github-container img{
@@ -610,13 +665,13 @@ textarea{
 		width:40%;
 	}
 	
-	#html5-logo-container{
+	#mobileappteamx-logo-container{
 		display:block;
 		float:left;
 		width:20%;
 	}
 
-	#html5-logo-container img{
+	#mobileappteamx-logo-container img{
 		display:block;
 		margin:auto;
 	}
@@ -671,7 +726,7 @@ textarea{
 
 	.ie8 .preconfig-container,
 	.ie7 .preconfig-container{
-		width:31.33%;
+		width:70%;
 	}
 
 	.preconfig-container:last-child{
@@ -696,7 +751,7 @@ textarea{
 
 
 	.customize-section{
-		width:33.3%;
+		width:70%;
 	}
 
 	.customize-section:nth-child(2n + 1){
