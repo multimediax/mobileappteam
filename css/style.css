@@ -107,8 +107,9 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 	color:white;
 	font-family:'ChunkFiveRegular';
 	font-weight:normal;
-	font-size:4em;
+	font-size:2.0em;
 	margin-bottom:20px;
+	line-height: 1.2em;
 }
 
 #header-container h2{
@@ -396,7 +397,7 @@ textarea{
 
 
 #email:before{
-	content:"initializr@gmail.com";
+	content:"mobileappteamx@gmail.com";
 }
 
 /* ===============
