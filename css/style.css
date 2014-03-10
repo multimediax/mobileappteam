@@ -151,6 +151,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
         height:712px;
     width:340px;
     margin-left:-40px;
+    padding-right:13px;
     
 }
 .logo
@@ -812,7 +813,7 @@ textarea{
 
 
 	#about-container article{
-		width:530px;
+		width:1000px;
 	}
 
 	#github-container{
