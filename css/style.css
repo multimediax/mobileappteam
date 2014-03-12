@@ -148,10 +148,11 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 
 .iphoneapp
 {
-        height:712px;
-    width:340px;
-    margin-left:-40px;
-    padding-right:13px;
+   
+    width:100%;
+    max-width:320px;
+    margin-left:0px;
+
     
 }
 .logo
@@ -169,6 +170,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
        height:40px;
     width:40px;
     vertical-align: middle;
+    border:none;
 }
 
 .googleplayicon
@@ -176,6 +178,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
        height:40px;
     width:40px;
     vertical-align: middle;
+    border:none;
 }
 
 
@@ -262,7 +265,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
     width:50px;
     height:50px;
     margin-top:17px;
-    margin-left:15px;
+    margin-left:0px;
     float:left;
 }
 
@@ -498,6 +501,9 @@ textarea{
 #email:before{
 	content:"mobileappteamx@gmail.com";
 }
+#email1:before{
+	content:"mobileappteamx@gmail.com";
+}
 
 /* ===============
     ALL: IE Fixes
@@ -580,20 +586,20 @@ textarea{
 	}
 
 	#follow-iframes-container{
-		width:260px;
+		width:320px;
 		float:right;
 	}
 
 	#follow-iframes-container iframe{
 		float:right;
-		width:146px!important;
+		width:320px!important;
 		margin-bottom:6px;
 	}
 
 	.ie9 #follow-iframes-container iframe,
 	.ie8 #follow-iframes-container iframe,
 	.ie7 #follow-iframes-container iframe{
-		width:135px!important;
+		width:320px!important;
 	}
 	
 
@@ -637,7 +643,9 @@ textarea{
 		margin:0 1%;
 	}
 
-	.preconfig-block{
+	.preconfig-block
+	{
+	    		margin-bottom:10px;
 	}
 
 	.preconfig-container:last-child{
