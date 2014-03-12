@@ -152,6 +152,8 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
     width:100%;
     max-width:320px;
     margin-left:0px;
+ 
+    
 
     
 }
@@ -168,7 +170,15 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 .appleappstoreicon
 {
        height:40px;
-    width:40px;
+    width:80px;
+    vertical-align: middle;
+    border:none;
+}
+
+.twittericon
+{
+       height:40px;
+    
     vertical-align: middle;
     border:none;
 }
@@ -660,7 +670,8 @@ textarea{
 
 	.customize-section{
 		float:left;
-		width:50%;
+		width:70%;
+		margin-left:30px;
 	}
 	
 	.customize-section:nth-child(2n + 1){
