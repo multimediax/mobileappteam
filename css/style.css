@@ -507,11 +507,17 @@ textarea{
 	display:none;
 }
 
+.twitter-follow-button
+{
+   top:33px;
+}
 
 #email:before{
 	content:"mobileappteamx@gmail.com";
 }
-#email1:before{
+#email1:before
+{
+   
 	content:"mobileappteamx@gmail.com";
 }
 
