@@ -170,7 +170,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 .appleappstoreicon
 {
        height:40px;
-    width:80px;
+    width:40px;
     vertical-align: middle;
     border:none;
 }
@@ -418,14 +418,20 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 #ios
 {
     display:none;
+    padding-right:15px;
+    padding-left:15px;
     }
     #android
 {
     display:none;
+        padding-right:15px;
+    padding-left:15px;
     }
     #html5
 {
     display:none;
+        padding-right:15px;
+    padding-left:15px;
     }
 
 #customize-section label{
